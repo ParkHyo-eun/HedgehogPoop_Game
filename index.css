@@ -1,0 +1,179 @@
+body {
+  background-color: #ffe7e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Game Screen */
+.Fix {
+  background-color: antiquewhite;
+  /* position: fixed;
+  top: 20px; 
+  right: 200px;
+  z-index: 2; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Title {
+  font-size: 1.5rem;
+  font-family: 조선100년체;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+canvas {
+  background-color: #944e63;
+  border-radius: 0.3rem;
+  width: 900px;
+  height: 700px;
+}
+
+/* Middle1 */
+.middle1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0rem 1rem 0rem;
+}
+.customT {
+  font-family: 조선100년체;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.custom {
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: #b47b84 0.5px solid;
+  border-radius: 0.3rem;
+  background-color: white;
+  opacity: 50%;
+}
+.outer {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.leftButton {
+  width: 5%;
+  height: 5rem;
+}
+.rightButton {
+  width: 5%;
+  height: 5rem;
+}
+
+/* Middle2 */
+.middle2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0rem 1rem 0rem;
+}
+.moreGameC {
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: #b47b84 0.5px solid;
+  border-radius: 0.3rem;
+  background-color: white;
+  opacity: 50%;
+}
+
+/* Footer */
+.footer {
+  font-size: 0.7rem;
+  color: gray;
+  letter-spacing: 0rem;
+  line-height: 1rem;
+  border-top: solid 1px lightgray;
+  padding-top: 1rem;
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+/* Banner */
+.rank {
+  width: 10rem;
+  background-color: white;
+  border: 1.5px lightgray solid;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 60px;
+  right: 3%;
+  opacity: 40%;
+}
+.rankTitle {
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0.8rem;
+  margin-top: 0.7rem;
+}
+#rank1 {
+  width: 4rem;
+  border-top: #b47b84 1px solid;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#rank2 {
+  width: 4rem;
+  border-top: #b47b84 1px solid;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#rank3 {
+  width: 4rem;
+  border-top: #b47b84 1px solid;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#rankEtc {
+  height: 1.7rem;
+  width: 4rem;
+  border-top: #b47b84 1px solid;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#rankMain {
+  width: 4rem;
+  font-size: 0.7rem;
+  border-top: #b47b84 1px solid;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.MyRank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
